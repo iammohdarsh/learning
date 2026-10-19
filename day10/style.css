@@ -1,0 +1,26 @@
+ @font-face {
+    font-family:godfather;
+    src: url("corleone-font/Corleone-e9gB.ttf");
+}
+
+header{
+    font-family:godfather;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ad{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: green;
+    border: 5px solid greenyellow;
+    text-align: center;
+}
+
+#cta{
+    background-color: brown;
+    border: 2px solid greenyellow;
+    padding: 5px 10px;
+
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+}
+
+div{
+
+    text-align: center;
+    font-size: xx-large;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#increment_btn{
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    color: red;
+    background-color: beige;
+}
+
+#save_btn{
+    margin: 20px;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    color: red;
+    background-color: beige;
+}

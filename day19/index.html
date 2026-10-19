@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+            <h1 class="team">HOME</h1>
+            <span class="score" id="score_home">0</span>
+
+            <div>
+                <button class="btn_score" onclick="addone('home'); lead();">+1</button>
+                <button class="btn_score" onclick="addtwo('home'); lead();">+2</button>
+                <button class="btn_score" onclick="addthree('home'); lead();">+3</button>
+            </div>
+
+        </div>
+
+        <div class="timer">
+            <h1 id="clock">TIME</h1>
+            <span id="time">00:00:00</span>
+            <button id="time_start" onclick="">START</button>
+        </div>
+
+        <div class="guest">
+            <h1 class="team">GUEST</h1>
+            <span class="score" id="score_guest">0</span>
+
+            <div>
+                <button class="btn_score" onclick="addone('guest'); lead(); ">+1</button>
+                <button class="btn_score" onclick="addtwo('guest'); lead();">+2</button>
+                <button class="btn_score" onclick="addthree('guest'); lead();">+3</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="new_game">
+        <button id="game_reset" onclick="reset(); lead();">NEW GAME</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

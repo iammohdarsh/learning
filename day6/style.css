@@ -1,0 +1,17 @@
+article{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+    /*short hand for margin and padding*/
+    /*it goes like top then right then bottom then left
+    like they're in a clockwise sequence  */
+
+    margin: 10px 5px;
+    padding: 10px 5px;
+    /*or if top and bottom are same and left and right are same
+    then use this its is like top and botton together first 
+    and then right and left together*/
+}

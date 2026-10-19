@@ -1,0 +1,37 @@
+h3{
+    text-align: center;
+    font-size: 150px;
+    color: rgb(206, 37, 37);
+
+    text-shadow: 10px 5px 5px black;
+    /*first value moves shadow around x-axis*/
+    /*second value moves shadow around y-axis*/
+    /*third value is blur in shadow*/
+    /*fourth value is color*/
+}
+
+h4{
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: -15px 0px black;
+}
+
+h5{
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+
+    text-shadow: 0px -15px 5px black;
+    
+} 
+
+h6{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+
+    text-shadow: 0px 0px 40px black;
+    /*this blur can make the word visible even if both 
+    backgroundcolor and text color is same*/
+}

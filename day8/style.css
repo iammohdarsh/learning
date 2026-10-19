@@ -1,0 +1,48 @@
+body{
+    font-family: "Comic Relief", system-ui;
+    margin: 0;
+    
+}
+.hero{
+    background-image:url(pexels-introspectivedsgn-7524996.webp);
+    background-size:cover;
+
+    color: hsl(56, 55%, 46%);
+    
+    font-size: 100px;
+    text-align: center;
+
+    padding: 1px 0px 40px 0px;
+    
+    text-shadow: 5px 10px black;
+    
+}
+
+button{  
+    padding:20px 100px;
+    border: 10px;
+    border-radius: 100px;
+    font-size: 25%;
+    background-color: hsl(56, 55%, 46%);
+    color: white;
+
+    font-family:inherit;
+    font-weight: bold;
+    
+}
+
+#cta{
+    border-bottom: 15px solid;
+    text-decoration: 15px underline;
+    /*they both work fine but text-decoration is better
+    bcuz it dont act as border*/
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: hsl(56, 55%, 46%);
+    margin: 0;
+    padding: 1px;
+}

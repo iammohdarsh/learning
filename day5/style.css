@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(255, 191, 168);
+    
+
+}
+.btn{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: brown;
+   /* border: none;  oon this to remove border and make the everthing smooth*/
+    background: none;
+}
+
+.subscription{
+    margin-top: 20px;
+    display: flex;
+    /* every element is made as a column by using flex property 
+       but the unordered list elements are still stacked which 
+       shows flex property only affects
+       the first childs of div container*/
+}
+
+.new_subscription{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+    /*see here how i just added two div and 
+    it chaged the layout as we want*/
+
+}

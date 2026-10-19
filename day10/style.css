@@ -1,26 +1,128 @@
  @font-face {
-    font-family:godfather;
-    src: url("corleone-font/Corleone-e9gB.ttf");
+    font-family:naruto;
+    src: url("./font/Bangers/Bangers-Regular.ttf");
 }
 
+html{
+    font-family: naruto,sans-serif;
+    background: #ff8851;
+    background: linear-gradient(#ff8851,#f3a537);
+    
+}
 header{
-    font-family:godfather;
-    font-size: 100px;
+    color:  #363641;
     text-align: center;
-    margin-bottom: 30px;
-}
-
-.ad{
     font-size: 30px;
-    color: aliceblue;
-    background-color: green;
-    border: 5px solid greenyellow;
-    text-align: center;
+    text-shadow: 0px 0px 1px #363641;  
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-#cta{
-    background-color: brown;
-    border: 2px solid greenyellow;
-    padding: 5px 10px;
+#heading{
+    margin-top: 15px;
+}
 
+#pfp{
+    border: 5px solid #E7E419;
+    border-radius: 50%;  
+}
+
+.info{
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 10px ;
+    padding: 5px 30px 5px 30px;
+}
+
+.content{
+    color:  #363641;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0px 0px 1px #363641;  
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    margin-top: 40px;
+}
+
+.five{
+    margin-top: 80px;
+}
+
+.four{
+    margin-top: 80px;
+}
+
+.three{
+    margin-top: 80px;
+}
+
+.two{
+    margin-top: 80px;
+}
+
+.one{
+    margin-top: 80px;
+}
+
+.arc{
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 40px 0px 40px 0px;
+}
+
+.arc_img5{
+    background-image: url("./image_ref/5th.jpg");
+    border: 10px solid #363641;
+    height: 595px;
+    width: 469px;
+    background-size: cover;
+}
+.arc_img4{
+    background-image: url("./image_ref/cunin_arc.jpg");
+    border: 10px solid #363641;
+    height: 595px;
+    width: 469px;
+    background-size: cover;
+}
+.arc_img3{
+    background-image: url("./image_ref/jiraiya_arc.jpg");
+    border: 10px solid #363641;
+    height: 595px;
+    width: 469px;
+    background-size: cover;
+}
+.arc_img2{
+    background-image: url("./image_ref/sasuke_arc.jpg");
+    border: 10px solid #363641;
+    height: 595px;
+    width: 469px;
+    background-size: cover;
+}
+.arc_img1{
+    background-image: url("./image_ref/pain's_arc.jpeg");
+    border: 10px solid #363641;
+    height: 595px;
+    width: 469px;
+    background-size: cover;
+}
+.arc_img1:hover, .arc_img2:hover, .arc_img3:hover, .arc_img4:hover, .arc_img5:hover{
+
+    background-image:url("./image_ref/hover_.gif");
+    background-size: cover;
+    width: 540px;
+    height: 410px;
+
+}
+
+footer{
+    margin: 100px auto 0px auto;
+    font-size: 25px;
+    text-align: center;
 }

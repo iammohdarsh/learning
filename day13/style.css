@@ -1,40 +1,83 @@
-
-
-.container{
-    border:5px solid black;
-    height: 600px;
-
+body{
+    margin: 0;
+}
+.hero{
     
+    background-image: url("./imagesss/new_york.jpg");
+    background-size: cover;
+
     display: flex;
-
-    align-items:center;
-    /* it controlls the y-axis
-    
-    start, end, centre*/
-
-    /*align items is by default is strechecd so you
-    have to make it non streched */
-
-
-    justify-content:start;
-    /*it controlls the x-axis
-    
-    start, end, centre, space-around, space-evenly,
-    space-between */
-
     flex-direction: column;
-    /*using flex direction can also change
-    justify-content and align-items property
-    (y-axis control)    (x-axis control) */
+    justify-content: center;
+    align-items: center;
 
+    
+    padding: 200px;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.main{
+    margin: 10px;
+    background-color: beige;
 }
 
-.items{
-    width: 100px;
-    font-size: 80px;
-    background-color: grey;
-    border: 5px solid green;
-    margin: 2%;
-    padding: 2%;
+.attractions{
+    background-color: beige;
 
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+
+.places{
+    height: 120px; 
+    border-radius: 50%;
+}
+
+#second_heading{
+    margin: 0;
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+}
+
+.sol,.cp,.ts{
+    padding: 50px;
+    width: 33%;
+    font-size: 15px;
+}
+
+.guide{
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+    font-weight: 600;
+
+    width: 650px;
+    margin: 50px auto;
+    padding: 30px;
+
+
+    background-color: bisque;
+
+    border-radius: 20px;
+    border-bottom: 5px solid brown;
+    
+}
+#guide_image{
+    width: 200px;
+    margin-right: 35px;
+}
+
+.guide_info{
+    font-size: 30px;
+}
+
+#guide_intro{
+    font-weight: 200;
+    font-size: 20px;
 }

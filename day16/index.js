@@ -1,20 +1,28 @@
-let headCount=document.getElementById("head_count")
+let num1= 4
+let num2= 5
+document.getElementById("number1").innerText=num1
+document.getElementById("number2").innerText=num2
+let op=document.getElementById("operator")
+let end_result= document.getElementById("result")
+let Result=0
 
-let count= 0 
-function increment(){
-    count+= 1
-   headCount.innerText=count
-    //document.getElementById("head_count").innerText=count
+function add(){
+    Result=num1+num2
+    end_result.innerText="Result : "+Result
+    op.innerText="+"
 }
-
-let sav = document.getElementById("save")
-function loged(){
-     sav.textContent+= count +" - "
-     //used textContent instead of innerText 
-     headCount.innerText=0
-     count=0
+function sub(){
+    Result=num1-num2
+    end_result.innerText="Result : "+Result
+    op.innerText="-"
 }
-
-let some= "have you seen the movie \"the lion king\""
-// we used this \ to escape the next element which is this " to that we avoid error
-console.log(some)
+function multi(){
+    Result=num1*num2
+    end_result.innerText="Result : "+Result
+    op.innerText="x"
+}
+function div(){
+    Result=num1/num2
+    end_result.innerText="Result : "+Result
+    op.innerText="/"
+}

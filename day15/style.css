@@ -1,83 +1,12 @@
-body{
-    margin: 0;
+#btn{
+    width: 500px;
+    height: 100px;
+    margin: 100px 200px;
+    font-size: 50px;
+    background-color: aquamarine;
 }
-.hero{
-    
-    background-image: url("./imagesss/new_york.jpg");
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    
-    padding: 200px;
-
-    font-family:'Courier New', Courier, monospace;
+p{
+    text-align: center;
     font-size: xx-large;
-    font-weight: 500;
-}
-.main{
-    margin: 10px;
-    background-color: beige;
-}
-
-.attractions{
-    background-color: beige;
-
-    display: flex;
-    flex-direction: row;
-
-    text-align: center;
-}
-
-.places{
-    height: 120px; 
-    border-radius: 50%;
-}
-
-#second_heading{
-    margin: 0;
-    padding: 20px;
-    background-color: beige;
-    text-align: center;
-}
-
-.sol,.cp,.ts{
-    padding: 50px;
-    width: 33%;
-    font-size: 15px;
-}
-
-.guide{
-    display: flex;
-    justify-content: space-between;
-
-    text-align: center;
-    font-weight: 600;
-
-    width: 650px;
-    margin: 50px auto;
-    padding: 30px;
-
-
-    background-color: bisque;
-
-    border-radius: 20px;
-    border-bottom: 5px solid brown;
-    
-}
-#guide_image{
-    width: 200px;
-    margin-right: 35px;
-}
-
-.guide_info{
-    font-size: 30px;
-}
-
-#guide_intro{
-    font-weight: 200;
-    font-size: 20px;
+    color: red;
 }

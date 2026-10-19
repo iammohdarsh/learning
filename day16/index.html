@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>java script</title>
+        <title>calculator</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <div>
-            <h1>people entered :</h1>
-            <h2 id="head_count">0</h2>
-            <button id="increment_btn" onclick="increment()">increment</button>
-            <button id="save_btn" onclick="loged()">save</button>
-            <p id="save">you saved : </p>
+    <body><div>
+            <span id="number1">2</span>
+            <span id="operator"></span>
+            <span id="number2">3</span>
+            <br>
+            <div class="operations">
+                <button class="btn" id="add" onclick="add()">Add</button>
+                <button class="btn" id="subtract" onclick="sub()">Subtract</button>
+                <br>
+                <button class="btn" id="multiply" onclick="multi()">Multiply</button>
+                <button class="btn" id="divide" onclick="div()">Divide</button>
+            </div>
+            <h5 id="result">Result : </h5>
         </div>
         <script src="index.js"></script>
-
-    
     </body>
 </html>

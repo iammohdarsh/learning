@@ -1,32 +1,33 @@
-body{
-    background-color: burlywood;
-}
-
 div{
-
     text-align: center;
-    font-size: xx-large;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 100px 0 100px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(77, 177, 40);
+    
 }
-#increment_btn{
-    font-size: 15px;
-    width: 100px;
-    height: 50px;
-    border-radius: 50px;
-    color: red;
-    background-color: beige;
+#number1{
+    border-bottom: 5px solid  black;   
 }
-
-#save_btn{
-    margin: 20px;
-    font-size: 15px;
-    width: 100px;
+#number2{
+    border-bottom: 5px solid  black;   
+}
+.btn{
+    width: 115px;
     height: 50px;
+    font-size: 20px;
+    border: 3px solid;
     border-radius: 50px;
-    color: red;
-    background-color: beige;
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(74, 177, 50);
+    background-color: rgb(4, 87, 45);
+}
+#number1{
+    margin: 0px 30px;
+    padding: 0px 10px 0px 10px;
+}
+#number2{
+    margin: 0px 30px;
+    padding: 0px 10px 0px 10px;
 }

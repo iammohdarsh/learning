@@ -13,11 +13,22 @@ p{
     font-size: 35px;
 }
 .hero{
-    background-color:green;
+    background-color:rgb(1, 105, 1);
     color: rgb(199, 197, 197);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 0 110px 0;
+}
+#start{
+    width: 300px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px black;
+    color: rgb(1, 105, 1);
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
 }

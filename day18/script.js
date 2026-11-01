@@ -1,10 +1,11 @@
-let firstCard=21
+let firstCard=8
 let secondCard=1
 let sum= firstCard+secondCard
 let haveWon= false
 let isAlive= true
 let message= ""
 let messageEl=document.getElementById("message")
+let cardEl= document.querySelector("#card-el")
 
 let sumEl=document.querySelector("#sum-el")
 //we have used qureyselector it is a broader way to
@@ -13,6 +14,7 @@ let sumEl=document.querySelector("#sum-el")
 console.log(`${firstCard}\n${secondCard}`)
 
 function startGame(){
+    cardEl.textContent="card: "+firstCard+" "+secondCard
     if (sum===21){
         message= "you've won!"
         haveWon= true

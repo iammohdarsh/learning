@@ -32,3 +32,15 @@ p{
     border: none;
     border-radius: 5px;
 }
+#next-card{
+    margin-top: 10px;
+    width: 300px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0px 0px 1px black;
+    color: rgb(1, 105, 1);
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+}

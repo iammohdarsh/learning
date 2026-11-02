@@ -1,5 +1,7 @@
 let firstCard=8
 let secondCard=1
+let nextCard=12
+let card=[firstCard,secondCard]
 let sum= firstCard+secondCard
 let haveWon= false
 let isAlive= true
@@ -14,7 +16,11 @@ let sumEl=document.querySelector("#sum-el")
 console.log(`${firstCard}\n${secondCard}`)
 
 function startGame(){
-    cardEl.textContent="card: "+firstCard+" "+secondCard
+    renderGame()
+}
+
+function renderGame(){
+    cardEl.textContent="card: "+card[0]+" "+card[1]
     if (sum===21){
         message= "you've won!"
         haveWon= true
@@ -26,4 +32,9 @@ function startGame(){
     }
     messageEl.textContent=message
     sumEl.innerText="sum : "+sum
+}
+
+function newCard(){
+    sum= firstCard+secondCard+nextCard
+    renderGame()
 }

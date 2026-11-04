@@ -20,7 +20,10 @@ function startGame(){
 }
 
 function renderGame(){
-    cardEl.textContent="card: "+card[0]+" "+card[1]
+    cardEl.textContent="cards :"
+    for (let i = 0; i < card.length; i++) {
+        cardEl.textContent+=card[i]+" "
+    }
     if (sum===21){
         message= "you've won!"
         haveWon= true
@@ -36,5 +39,6 @@ function renderGame(){
 
 function newCard(){
     sum= firstCard+secondCard+nextCard
+    card.push(nextCard)
     renderGame()
 }

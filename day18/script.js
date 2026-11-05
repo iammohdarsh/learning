@@ -1,5 +1,5 @@
-let firstCard=8
-let secondCard=1
+let firstCard=randomCard()
+let secondCard=randomCard()
 let nextCard=12
 let card=[firstCard,secondCard]
 let sum= firstCard+secondCard
@@ -14,6 +14,10 @@ let sumEl=document.querySelector("#sum-el")
 //select elements. we use # with sum-el because it is an id
 
 console.log(`${firstCard}\n${secondCard}`)
+
+function randomCard(){
+    return 5
+}
 
 function startGame(){
     renderGame()

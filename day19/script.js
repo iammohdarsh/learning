@@ -13,9 +13,18 @@ for(i=0; i < things.length; i++){
 } 
 
 //DOM using loops
-let ElementEL=document.querySelector("#element")
-function addElement() {
-    for(i=0; i<things.length; i++){
-        ElementEL.textContent+=" "+things[i]
-    }
+//let ElementEL=document.querySelector("#element")
+//function addElement() {
+//    for(i=0; i<things.length; i++){
+//        ElementEL.textContent+=" "+things[i]
+//    }
+//}
+
+//retrun function
+let time1=11
+let time2=21
+function addtime(){
+    return time1+time2
 }
+let totaltime= addtime()
+console.log(totaltime)
